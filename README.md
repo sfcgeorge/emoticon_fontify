@@ -16,32 +16,32 @@ gem 'emoticon_fontify'
 Then include the stylesheet in your `application.css` manifest.
 
 ```
-//= 'emoticon_fontify/emoticons.css'
+*= 'emoticon_fontify/emoticons'
 ```
 
 Finally use the helper to fontify emoticons in a string. This would allow fontifying content such as: `Why hello there good sir :O could I interest you in a cup of coffee? :)~D`
 
 ```ruby
-require EmoticonFontify::EmoticonHelper
+require 'emoticon_fontify'
 
-emoticon_fontify(content)
+EmoticonFontify.emoticon_fontify(h(content))
 ```
 
 
 ## List Of Emoticons
 
-[':)', ':-)'] => 'icon-emo-happy',
-[';)', ';-)'] => 'icon-emo-wink',
-[':(', ':-('] => 'icon-emo-unhappy',
-[':|', ':-|'] => 'icon-emo-sleep',
-['>:)', '>:-)', '}:)', '}:-)'] => 'icon-emo-devil',
-[':O', ':-O', ':0', ':-0'] => 'icon-emo-surprised',
-[':P', ':-P'] => 'icon-emo-tongue',
-[':)~D', ':-)~D'] => 'icon-emo-coffee',
-['B)', 'B-)'] => 'icon-emo-sunglasses',
-[':/', ':-/', ':\\', ':-\\'] => 'icon-emo-displeased',
-[':D', ':-D'] => 'icon-emo-grin',
-['>(', '>-('] => 'icon-emo-angry',
-['O:)', 'O:-)', '0:)', '0:-)'] => 'icon-emo-saint',
-[';(', ';-(', ":'(", ":'-("] => 'icon-emo-cry',
-['8)', '8-)'] => 'icon-emo-laugh'
+:) :-)
+;) ;-)
+:( :-(
+:| :-|
+}:) }:-) 3:) 3:-)
+:O :-O :0 :-0
+:P :-P
+:)~D :-)~D
+B) B-)
+:/ :-/ :\ :-\
+:D :-D
+:@ :-@ X( X-(
+O:) O:-) 0:) 0:-)
+;( ;-(
+8) 8-)
