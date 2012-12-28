@@ -45,3 +45,5 @@ B) B-)
 O:) O:-) 0:) 0:-)
 ;( ;-(
 8) 8-)
+
+See how they render on the [http://sfcgeorge.github.com/emoticon_fontify/](demo page).
