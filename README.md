@@ -45,3 +45,5 @@ B) B-)
 O:) O:-) 0:) 0:-)
 ;( ;-(
 8) 8-)
+
+An example of how the emoticon's look when converted to the font glyphs can be seen on the [http://sfcgeorge.github.com/emoticon_fontify/demo.html](demo page).
